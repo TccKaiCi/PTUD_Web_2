@@ -1,0 +1,50 @@
+.divwrapper{
+    clear:both;
+}
+.left{
+    font-style: initial;
+    float: right;
+    width:82%;
+    text-align:left;
+    padding-right:15px;
+    height:25px;
+    line-height:25px;
+    margin-top:10px;
+}
+.mid{
+    float:left;
+    margin-left:15px;
+}
+.right{
+    float:left;
+    width:auto;
+    margin-top:10px;
+    margin-left:5px;
+    height:25px;
+}
+
+input{
+    border-radius:1px;
+    width:300px;
+    height:20px;
+    margin-top:10px;
+}
+input.checkbox{
+    width:10px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.textleft{
+    float:left;
+    width:25%;
+    padding-left: 110px;
+    padding-right:150px;
+    height:35px;
+    line-height:25px;
+}
+.form-control{
+    float:left;
+    width:40%;
+    margin-left: 110px;
+    height:35px;
+}

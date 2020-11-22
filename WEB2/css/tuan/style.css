@@ -1,0 +1,168 @@
+body {
+  text-align: center;
+  margin: 0px;
+}
+#name {
+  justify-content: flex-start;
+}
+#name1 {
+  margin-left: 10%;
+  font-size: 20px;
+}
+#icon-header {
+  margin-right: 10%;
+}
+#icon-header i {
+  margin-right: 15%;
+}
+#navbarSupportedContent {
+  margin-left: 5%;
+}
+#search {
+  margin-right: 3%;
+  margin-left: auto;
+}
+#content {
+  margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+  #name1 {
+    margin-left: 2%;
+  }
+
+  #icon-header {
+    position: absolute;
+    margin-left: 85%;
+  }
+  #search {
+    position: absolute;
+    width: 90%;
+    margin-top: 60px;
+    margin-left: 2%;
+    margin-right: auto;
+  }
+  #search input {
+    width: 72%;
+    font-size: 12px;
+  }
+  #search button {
+    width: 22%;
+    font-size: 12px;
+  }
+  #content {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 500px) {
+  #icon-header {
+    position: absolute;
+    margin-left: 70%;
+  }
+}
+@media (max-width: 1245px) {
+  #search input {
+    font-size: 10px;
+  }
+  #search button {
+    font-size: 10px;
+  }
+  #search {
+    margin-right: 3%;
+  }
+  #name1 {
+    margin-left: 5%;
+    font-size: 20px;
+  }
+  #icon-header {
+    margin-right: 5%;
+  }
+}
+#form {
+  margin-left: 200px;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: 0.8em;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+#icon-parent {
+  background-color: rgba(0, 0, 0, 0);
+  display: none;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 199;
+}
+#icon-menu {
+  background-color: #fff;
+  height: 100%;
+  font-size: 16px;
+  outline: none;
+  margin-left: -280px;
+  overflow-y: scroll;
+  padding-top: 15px;
+  position: fixed;
+  top: 0;
+  transition: 3s;
+  width: 250px;
+  z-index: 200;
+}
+#right {
+  width: auto;
+  height: 100%;
+}
+h4 {
+  margin-left: 20px;
+}
+.tieudebang {
+  display: inline-block;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  margin-top: 20px;
+  height: 30px;
+  width: 120px;
+  font-size: 19px;
+}
+.chitietbang a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.chitietbang {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.chitietbang a:hover {
+  background-color: green;
+}
+
+.showbang:hover .chitietbang {
+  display: block;
+}
+#ulne li {
+  margin-left: 30px;
+}

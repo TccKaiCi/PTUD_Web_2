@@ -1,0 +1,29 @@
+#container-thanhtoan input {
+  width: 350px;
+  border-radius: 4px;
+}
+#container-thanhtoan button {
+  height: 40px;
+  text-align: center;
+}
+#container-thanhtoan h4 {
+  padding: 0px;
+  margin-left: 8px;
+}
+#container-thanhtoan input {
+  padding: 2px;
+}
+#container-thanhtoan button:hover {
+  background-color: wheat;
+  color: turquoise;
+}
+#container-thanhtoan img {
+  width: 140px;
+  height: 140px;
+}
+#container-thanhtoan span {
+  width: 150px;
+  height: 150px;
+  opacity: 0.8;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+}

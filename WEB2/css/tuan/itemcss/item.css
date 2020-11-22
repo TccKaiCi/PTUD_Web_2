@@ -1,0 +1,32 @@
+#list-item{
+    margin-top: 30px;
+}
+.owl-prev {
+    left: -30px;
+}
+.owl-next {
+    right: -30px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    top:30%;
+}
+.owl-prev span, .owl-next span {
+    font-size: 60px;
+    color:black;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background-color: transparent   ;
+}
+@media (max-width: 700px){    
+    .owl-prev {
+    left: -18px;
+}
+.owl-next {
+    right: -18px;
+}
+.owl-prev span, .owl-next span {
+    font-size: 40px;
+    color:black;
+}
+}

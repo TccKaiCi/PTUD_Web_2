@@ -1,0 +1,87 @@
+footer {
+  margin-top: 80px;
+}
+.a-black a {
+  color: black;
+}
+.a-black .active .page-link {
+  color: white;
+  background-color: black;
+}
+
+.a-black a:hover {
+  color: white;
+  background-color: black;
+}
+.icon {
+  font-size: 24px;
+}
+.icon :hover {
+  font-size: 28px;
+  color: lightseagreen;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+/* This is CSS Advertisement Slider */
+.carousel-indicators > li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+/* This is CSS Product Slider */
+
+.star-rating li {
+  padding: 0;
+  color: #ffc000;
+}
+
+#register-body {
+  background-color: #f7ae3b;
+  background-image: linear-gradient(62deg, #f7ae3b 0%, #e0c3fc 100%);
+}
+
+@media (min-width: 1200px) {
+  #login-container {
+    margin: 300px;
+  }
+  #register-container {
+    margin: 100px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1199) {
+  #login-container {
+    margin: 100px;
+  }
+  #register-container {
+    margin: 50px;
+  }
+}
+
+/*Product List Page*/
+
+.list-menu-item {
+  margin-top: 40px;
+}
+
+.product-item {
+  margin-top: 40px;
+}
+
+#pagnigation-container {
+  margin-top: 40px;
+}
+
+/*Product Detail*/
+#form-product-detail {
+  margin-top: 62px;
+}
+
+#pagnigation-container {
+  color: black;
+}

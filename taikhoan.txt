@@ -1,0 +1,7 @@
+email				pass 
+admin@gmail.com 			admin
+khachhang@gmail.com 		khachhang
+nhanvien@gmail.com		123
+prohz@gmail.com 			123
+tangchichung@gmail.com 		123
+hacker@gmail.com			123
